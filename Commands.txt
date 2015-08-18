@@ -102,5 +102,29 @@ In Index.html Change following
 HANDLE Unnecesary URLs
 -----------------------
 
+===================>
+
+1.  Download https://bootswatch.com/ - Free Template
+2.  Download a file bootstrap.css for any theme you like and place it in app/styles
+3.  In index.html Change
+	    <!-- build:css(.tmp) styles/main.css -->
+      <link rel="stylesheet" href="styles/main.css">
+	TO
 	
+	    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/bootstrap-cyborg.css" />
+      <link rel="stylesheet" href="styles/main.css">
+
+4.  From http://bootsnipp.com download the Login Screen Template [Just HTML form section would be good enough]
+5.  Copy CSS and Place it in main.css - At the End.
+6.  Animate - Register/Home link
+	Change both <li> for Home and Register to 
+	<li ui-sref-active="active">	
+	
+7.  Customize Register View to include
+	- Confirm Password
+	
+
+
+
 
