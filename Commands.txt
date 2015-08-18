@@ -124,7 +124,13 @@ HANDLE Unnecesary URLs
 7.  Customize Register View to include
 	- Confirm Password
 	
+=====================>
 
+1.  Add Client Validation on Register Page for password/confirm
+	yo angular:directive matchPassword
+2.  Add Controller for Post
+	you angular:controller register
+3.  
 
 
 
